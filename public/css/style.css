@@ -1,16 +1,24 @@
 @import 'https://fonts.googleapis.com/css?family=Didact+Gothic';
 @import 'https://fonts.googleapis.com/css?family=Open+Sans|Pacifico';
+@import 'https://fonts.googleapis.com/css?
 
 .didact {
   font-family: 'Didact Gothic', sans-serif;
 }
-
 .pacifico {
   font-family: 'Pacifico', cursive;
 }
-
+.opensans{
+  font-family: 'Open Sans', sans-serif;
+}
 p {
-  font-size: 26px;
+  font-size: 25px;
+}
+.shadowgrey{
+  background-color: #0F414F;
+}
+.dgrey{
+  background-color: #0E3640;
 }
 .grey{
   background-color: #058178;
@@ -30,10 +38,12 @@ p {
 .blue{
   background-color: #10478A;
 }
-
 #body{
   background-image: url(../images/backgroundimg.jpg);
   background-size:cover;
   background-position: center;
   background-attachment: fixed;
+}
+.boxshadow{
+  box-shadow: 10px 10px 5px #03222A;
 }
