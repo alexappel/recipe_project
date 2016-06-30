@@ -1,5 +1,5 @@
 def recipes(meal)
-  recipes = [:breakfast => {"pancake_recipe.png"}, :lunch => {"grilled_cheese.png"}, :dinner => {"pasta_recipe.png"}]
+  recipes = {:breakfast => ["public/images/pancake_recipe.png"], :lunch => ["public/images/grilled_cheese.png"], :dinner => ["public/images/pasta_recipe.png"]}
   if meal == "breakfast"
     recipes[:breakfast]
   elsif meal == "lunch"
@@ -8,6 +8,3 @@ def recipes(meal)
     recipes[:dinner]
   end
 end
-
-meal = gets.chomp
-recipes(meal)
