@@ -30,3 +30,10 @@ p {
 .blue{
   background-color: #10478A;
 }
+
+#body{
+  background-image: url(");
+  background-size: 100%;
+  background-position: center;
+  background-attachment: fixed;
+}
