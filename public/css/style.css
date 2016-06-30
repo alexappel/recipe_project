@@ -24,6 +24,9 @@
 .dgrey{
   background-color: #0E3640;
 }
+.grey2{
+  background-color: #30696E;
+}
 .grey{
   background-color: #058178;
 }
@@ -50,6 +53,9 @@
 }
 .boxshadow{
   box-shadow: 10px 10px 5px #03222A;
+}
+.boxshadow2{
+  box-shadow: 10px 10px 5px #0A3D41;
 }
 ul {
     list-style-type: none;
