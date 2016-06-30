@@ -9,8 +9,12 @@ class ApplicationController < Sinatra::Base
   end
 
   get '/results' do
-      @images = images
+      @images = recipes(params[:meal])
       erb :results
+  end
+
+  post '/results' do
+    erb :results
   end
 
 end
