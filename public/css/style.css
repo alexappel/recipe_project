@@ -22,11 +22,18 @@ p {
   background-color: #38A098;
 }
 .white{
-  color: #ffffff
+  color: #ffffff;
 }
 .lblue{
   background-color: #275E9F;
 }
 .blue{
   background-color: #10478A;
+}
+
+#body{
+  background-image: url(../images/backgroundimg.jpg);
+  background-size:cover;
+  background-position: center;
+  background-attachment: fixed;
 }
