@@ -32,8 +32,8 @@ p {
 }
 
 #body{
-  background-image: url(../images/website-design-slider-background-stockton.jpg);
-  background-size: 100%;
+  background-image: url(../images/backgroundimg.jpg);
+  background-size:cover;
   background-position: center;
   background-attachment: fixed;
 }
