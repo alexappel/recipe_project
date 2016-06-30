@@ -1,17 +1,21 @@
 @import 'https://fonts.googleapis.com/css?family=Didact+Gothic';
 @import 'https://fonts.googleapis.com/css?family=Open+Sans|Pacifico';
-@import 'https://fonts.googleapis.com/css?
+@import 'https://fonts.googleapis.com/css?;
+@import 'https://fonts.googleapis.com/css?family=El+Messiri';
 
-.didact {
+.messiri{
+  font-family: 'El Messiri', sans-serif;
+}
+.didact{
   font-family: 'Didact Gothic', sans-serif;
 }
-.pacifico {
+.pacifico{
   font-family: 'Pacifico', cursive;
 }
 .opensans{
   font-family: 'Open Sans', sans-serif;
 }
-p {
+.p {
   font-size: 25px;
 }
 .shadowgrey{
@@ -19,6 +23,9 @@ p {
 }
 .dgrey{
   background-color: #0E3640;
+}
+.grey2{
+  background-color: #30696E;
 }
 .grey{
   background-color: #058178;
@@ -46,4 +53,34 @@ p {
 }
 .boxshadow{
   box-shadow: 10px 10px 5px #03222A;
+}
+.boxshadow2{
+  box-shadow: 10px 10px 5px #0A3D41;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    color: #ffffff;
+    background-color: #111;
+    text-decoration: none;
+}
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
