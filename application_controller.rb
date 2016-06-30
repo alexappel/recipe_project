@@ -1,5 +1,6 @@
 require 'bundler'
 Bundler.require
+require_relative 'models/recipes.rb'
 
 class ApplicationController < Sinatra::Base
 
@@ -7,8 +8,8 @@ class ApplicationController < Sinatra::Base
     erb :index
   end
 
-  post '/results' do
-    
+  get '/results' do
+      @images = images
       erb :results
   end
 
