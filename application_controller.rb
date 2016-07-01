@@ -9,8 +9,9 @@ class ApplicationController < Sinatra::Base
   end
 
   post '/results' do
-      @imagesarray = recipes(params[:meal])
-      @image = @imagesarray[0]
+      @your_recipe = recipes(params[:meal].to_sym, params[:difficulty].to_i)
+      @recname = @your_recipe[:name]
+      @image = @your_recipe[:imgaddress]
       erb :results
   end
 
