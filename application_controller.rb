@@ -17,4 +17,16 @@ class ApplicationController < Sinatra::Base
     erb :results
   end
 
+  get '/about' do
+    erb :about
+  end
+
+  get '/contact' do
+    erb :contact
+  end
+
+  get '/news' do
+    erb :news
+  end
+
 end
