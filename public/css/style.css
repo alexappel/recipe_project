@@ -2,7 +2,11 @@
 @import 'https://fonts.googleapis.com/css?family=Open+Sans|Pacifico';
 @import 'https://fonts.googleapis.com/css?;
 @import 'https://fonts.googleapis.com/css?family=El+Messiri';
+@import 'https://fonts.googleapis.com/css?family=Indie+Flower';
 
+.indie{
+  font-family: 'Indie Flower', cursive;
+}
 .messiri{
   font-family: 'El Messiri', sans-serif;
 }
@@ -20,6 +24,9 @@
 }
 .p2{
   font-size: 40px;
+}
+.p3{
+  font-size: 30px;
 }
 .padding{
   padding-top: 25px;
