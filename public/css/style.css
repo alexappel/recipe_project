@@ -71,6 +71,9 @@
 .boxshadow2{
   box-shadow: 10px 10px 5px #0A3D41;
 }
+.dec{
+  text-decoration: none;
+}
 ul {
     list-style-type: none;
     margin: 0;
