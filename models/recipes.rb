@@ -1,5 +1,5 @@
 def recipes(meal)
-  recipes = {:breakfast => ["public/images/pancake_recipe.png"], :lunch => ["public/images/grilled_cheese.png"], :dinner => ["public/images/pasta_recipe.png"]}
+  recipes = {:breakfast => ["images/pancake_recipe.png", "images/oatmeal_recipe.png"], :lunch => ["images/grilled_cheese.png"], :dinner => ["images/pasta_recipe.png"]}
   if meal == "breakfast"
     recipes[:breakfast]
   elsif meal == "lunch"
