@@ -18,6 +18,13 @@
 .p {
   font-size: 25px;
 }
+.p2{
+  font-size: 40px;
+}
+.padding{
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
 .shadowgrey{
   background-color: #0F414F;
 }
